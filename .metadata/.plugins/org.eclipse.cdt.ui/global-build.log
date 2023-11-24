@@ -1,0 +1,14 @@
+13:52:30 **** Incremental Build of configuration Debug for project Module2_Interrupt_Button ****
+make -j8 all 
+arm-none-eabi-size   Module2_Interrupt_Button.elf 
+   text	   data	    bss	    dec	    hex	filename
+  25644	     20	   2812	  28476	   6f3c	Module2_Interrupt_Button.elf
+Finished building: default.size.stdout
+ 
+13:52:37 **** Incremental Build of configuration Debug for project Module2_Interrupt_Button ****
+make -j8 all 
+arm-none-eabi-size   Module2_Interrupt_Button.elf 
+   text	   data	    bss	    dec	    hex	filename
+  25644	     20	   2812	  28476	   6f3c	Module2_Interrupt_Button.elf
+Finished building: default.size.stdout
+ 

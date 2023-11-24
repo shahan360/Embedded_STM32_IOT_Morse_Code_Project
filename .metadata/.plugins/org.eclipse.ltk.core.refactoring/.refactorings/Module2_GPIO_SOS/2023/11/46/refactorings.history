@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Module2_GPIO_Interrupt/Module1_HelloWorld.ioc&apos; to &apos;Module2_GPIO_Interrupt.ioc&apos;" description="Rename resource &apos;Module1_HelloWorld.ioc&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Module1_HelloWorld.ioc" name="Module2_GPIO_Interrupt.ioc" stamp="1700288501355" updateReferences="true"/>
+</session>

@@ -1,0 +1,16 @@
+01:08:01 **** Incremental Build of configuration Debug for project Module1_HelloWorld ****
+make -j8 all 
+arm-none-eabi-gcc -o "Module1_HelloWorld.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\InstalledPrograms\ST\Interfacing_Course\STM32CubeIDE\workspace_1.13.2\Module1_HelloWorld\STM32L4S5VITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Module1_HelloWorld.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Module1_HelloWorld.elf
+ 
+arm-none-eabi-size   Module1_HelloWorld.elf 
+arm-none-eabi-objdump -h -S  Module1_HelloWorld.elf  > "Module1_HelloWorld.list"
+   text	   data	    bss	    dec	    hex	filename
+  25496	     20	   2812	  28328	   6ea8	Module1_HelloWorld.elf
+Finished building: default.size.stdout
+ 
+Finished building: Module1_HelloWorld.list
+ 
+
+01:08:02 Build Finished. 0 errors, 0 warnings. (took 1s.529ms)
+
